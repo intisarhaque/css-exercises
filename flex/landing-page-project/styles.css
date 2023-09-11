@@ -1,0 +1,150 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+	margin: 0;
+	min-height: 100vh;
+	width: 100%;
+}
+
+.total {
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	height: 100px;
+	background: darkmagenta;
+	color: black;
+	font-size: 10px;
+	display: flex;
+	/* width: 100%; */
+	flex: 1;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	padding-left: 30px;
+}
+
+.nav > ul {
+	display: flex;
+	list-style-type: none;
+	gap: 30px;
+	padding: 0px;
+	border: solid 5px black;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.intro {
+	border: solid 5px black;
+	display: flex;
+	width: 70%;
+	flex: 1;
+	justify-self: center;
+	align-self: center;
+	padding: 50px;
+	gap: 50px;
+	min-width: 500px;
+	max-width: 800px;
+}
+
+.intro-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 6px;
+	min-width: 200px;
+}
+
+.intro-header {
+	text-align: start;
+	font-size: 32px;
+	font-weight: bold;
+	align-self: flex-start;
+}
+
+.information {
+	border: solid green 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 500px;
+	max-width: 1200px;
+	padding: 50px;
+
+	align-self: center;
+}
+
+.information-header {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.illustration-box {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 50px;
+}
+
+.info {
+	border: solid 3px orange;
+	width: 250px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-text {
+	justify-self: center;
+	align-self: center;
+}
+
+.quote {
+	width: 95%;
+	height: 300px;
+	border: solid 3px pink;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.quote-text {
+	font-size: 40px;
+}
+
+.quote-author {
+	font-size: 20px;
+}
+
+.signup {
+}
+
+.footer {
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#main-img {
+	display: block;
+	height: 100%;
+	width: 400px;
+	align-self: center;
+}
+
+#sub-img {
+	display: block;
+	height: 100%;
+	width: 200px;
+}
